@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Future</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>🚀 Tech Future</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>O Futuro da Tecnologia é Agora</h2>
+    <p>Inovação, Inteligência Artificial, Realidade Aumentada e muito mais.</p>
+    <button class="neon-btn" data-info="Nossa missão é criar tecnologias inovadoras que impulsionam o futuro, trazendo mais eficiência e experiências únicas.">Saiba Mais</button>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Somos especialistas em soluções tecnológicas que conectam empresas ao futuro. Da Inteligência Artificial à Realidade Aumentada, desenvolvemos projetos inovadores para transformar ideias em resultados reais.</p>
+    <p>📱 WhatsApp: <a href="https://wa.me/5521999900000" target="_blank" style="color:#00ffff;">+55 21 99990-0000</a></p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Inteligência Artificial</h3>
+        <p>Modelos de IA para otimizar seu negócio.</p>
+        <button class="neon-btn" data-info="A Inteligência Artificial pode automatizar tarefas, analisar grandes volumes de dados e gerar insights para decisões mais rápidas e assertivas.">Saiba Mais</button>
+      </div>
+      <div class="card">
+        <h3>Realidade Aumentada</h3>
+        <p>Experiências imersivas e interativas.</p>
+        <button class="neon-btn" data-info="A Realidade Aumentada transforma a maneira como interagimos com o mundo, unindo elementos virtuais ao ambiente real para experiências únicas.">Saiba Mais</button>
+      </div>
+      <div class="card">
+        <h3>Segurança Digital</h3>
+        <p>Proteção avançada para seus dados.</p>
+        <button class="neon-btn" data-info="Nossa segurança digital protege suas informações contra ameaças cibernéticas, garantindo a integridade e confidencialidade dos seus dados.">Saiba Mais</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <form onsubmit="event.preventDefault(); handleFormSubmit();">
+      <input type="text" placeholder="Seu Nome" required>
+      <input type="email" placeholder="Seu Email" required>
+      <textarea placeholder="Sua Mensagem"></textarea>
+      <button type="submit" class="neon-btn">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Tech Future - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
